@@ -1,5 +1,11 @@
+server:
+  port: 8888
 spring:
   application:
     name: config-server
-server:
-  port: 8888
+  cloud:
+    config:
+      server:
+        git:
+          url: https://github.com/SwishSwishBish/MicroservicesDemo/tree/master/MicroservicesProperties
+          clone-on-start: true
