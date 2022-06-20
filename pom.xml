@@ -12,6 +12,7 @@
         <module>ProductService</module>
         <module>TransactionService</module>
         <module>DiscoveryServer</module>
+        <module>ConfigServer</module>
     </modules>
 
     <properties>
