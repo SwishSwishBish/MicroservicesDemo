@@ -1,13 +1,23 @@
-spring:
-  cloud:
-    config:
-      uri: http://localhost:8888
 management:
   endpoints:
     web:
       exposure:
         include: *
 spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+    vault:
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: TOKEN
+      token: hvs.SNJB16DzKUTGITSFrpQdtmpm
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   application:
     name: product-service
   data:
