@@ -1,4 +1,4 @@
-package com.sena.Repository.entity;
+package com.sena.repository.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

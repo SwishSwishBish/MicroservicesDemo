@@ -1,7 +1,7 @@
 package com.sena.controller;
 
-import com.sena.Repository.IProductRepository;
-import com.sena.Repository.entity.Product;
+import com.sena.repository.IProductRepository;
+import com.sena.repository.entity.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

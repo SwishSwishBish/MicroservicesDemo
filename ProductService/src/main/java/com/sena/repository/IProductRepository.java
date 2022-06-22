@@ -1,6 +1,6 @@
-package com.sena.Repository;
+package com.sena.repository;
 
-import com.sena.Repository.entity.Product;
+import com.sena.repository.entity.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
