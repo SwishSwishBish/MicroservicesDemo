@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: inventory-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+    vault:
+      application-name: inventory-service
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: TOKEN
+      token: hvs.SNJB16DzKUTGITSFrpQdtmpm
+    raabitmq:
+      host: localhost
+      post: 5672
+      username: guest
+      password: guest
+management:
+  endpoint:
+    web:
+      exposure:
+        include: *
+server:
+  port: 8183
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
+security:
+  oauth2:
+    resourceserver:
+      jwt:
+        issuer-uri: http://localhost:8180/auth/realms/microservices-realm
