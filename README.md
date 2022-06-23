@@ -61,7 +61,7 @@ It is a non-functional Spring Boot application developed to understand microserv
 
 ## Diagram
 <p align="center"><img 
-    style="width: 65%;"
+    style="width: 70%;"
     src="https://raw.githubusercontent.com/SwishSwishBish/MicroservicesDemo/master/diagram/microservices-demo.png" 
     alt="diagram">
 </img></p>
