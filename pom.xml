@@ -15,6 +15,7 @@
         <module>ConfigServer</module>
         <module>GatewayService</module>
         <module>InventoryService</module>
+        <module>NotificationService</module>
     </modules>
 
     <properties>

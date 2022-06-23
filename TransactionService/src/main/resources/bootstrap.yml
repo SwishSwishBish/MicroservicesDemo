@@ -15,6 +15,10 @@ spring:
       scheme: http
       authentication: TOKEN
       token: hvs.SNJB16DzKUTGITSFrpQdtmpm
+    stream:
+      bindings:
+        notificationsEventSupplier-out-0:
+          destination: notification-events
   rabbitmq:
     host: localhost
     port: 5672
