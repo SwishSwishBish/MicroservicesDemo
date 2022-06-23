@@ -11,7 +11,7 @@
 
 
 <p align=center>
-It is a non-functional Spring Boot application developed to understand microservices architecture. You can review this repository to learn how the technologies listed below are integrated and used.</p> 
+It is a non-functional Spring Boot application is developed to understand the architecture of the microservices. You can review this repository to learn how the technologies are listed below that are integrated and used.</p> 
 
 <details close="open">
   <summary><strong>Techs</strong></summary>
