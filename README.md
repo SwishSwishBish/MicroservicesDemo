@@ -52,6 +52,9 @@ It is a non-functional Spring Boot application developed to understand microserv
         <li>Zipkin</li>
     </ul>
     <ul>
+        <li>Keycloak</li>
+    </ul>
+    <ul>
         <li>Elastic Search</li>
     </ul>
     <ul>
